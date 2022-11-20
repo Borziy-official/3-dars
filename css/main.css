@@ -1,0 +1,64 @@
+:root {
+    --bg-color: #FFFFFF;
+    --card-bg: #FFFFFF;
+    --text-color: #000;
+}
+
+.dark {
+    --bg-color: #202C36;
+    --card-bg: #2B3844;
+    --text-color: #FFF;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.my-card {
+    background-color: var(--card-bg);
+}
+
+.input {
+    background-color: var(--card-bg);
+}
+
+.text {
+    color: var(--text-color);
+}
+
+.header {
+    background-color: var(--card-bg);
+}
+
+.div::before {
+    content: "";
+    background-image: url("../img/icon.svg");
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.div {
+    align-items: center;
+    background-color: var(--card-bg);
+}
+.btn-back{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.btn-back::before {
+    content: "";
+    background-image: url("../img/left.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.list-stail{
+    list-style: none;
+}
